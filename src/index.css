@@ -53,7 +53,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.featuredPuppy {
+  padding: 1rem;
+  border: cornsilk solid 4px;
+  color: #1a1a1a;
+  background-color: grey;
+}
+.puppiesList {
+  display: flex;
+  justify-content: space-around;
+  border: cornsilk dashed 2px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
